@@ -2,7 +2,7 @@ distanciaPuntos :: (Float, Float) -> (Float, Float) -> Float
 distanciaPuntos (x1,y1) (x2,y2) = ((x2 - x1)**2 + (y2 - y1)**2)**(1/2)
 
 hipotenusa :: Float -> Float -> Float
-hipotenusa b h = (b*2 + h*2)*(1/2)
+hipotenusa b h = (b**2 + h**2)**(1/2)
 
 pendiente :: (Float, Float) -> (Float, Float) -> Float
 pendiente (x1,y1) (x2,y2) = (y2 - y1) / (x2 - x1)
